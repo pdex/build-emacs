@@ -4,5 +4,5 @@ osx_image: xcode10.3
 os: osx
 script:
   - git clone --single-branch --branch emacs-27 https://github.com/emacs-mirror/emacs emacs-27
-  - tar cvf emacs-27.tar emacs-27
+  - tar cf emacs-27.tar emacs-27
   - ./build-emacs-from-tar -v -j 8 emacs-25.1.tar release
